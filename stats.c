@@ -9,13 +9,14 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * File: stats.c
  *
- * <Add Extended Description Here>
- *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * Description: To analyze an array of unsigned char data items and report 
+ * 		analytics on the maximum, minimum, mean, and median of the 
+ * 		data set.
+ * 
+ * Author: Jennifer Ngo
+ * Date: Editted November 2024
  *
  */
 
@@ -27,6 +28,15 @@
 /* Size of the Data Set */
 #define SIZE (40)
 
+void print_statistics(unsigned char * ptr, unsigned int arr_size);
+void print_array(unsigned char * ptr, unsigned int arr_size);
+void sort_array(unsigned char * ptr, unsigned int arr_size);
+unsigned char find_median(unsigned char * ptr, unsigned int arr_size);
+unsigned char find_mean(unsigned char * ptr, unsigned int arr_size);
+unsigned char find_maximum(unsigned char * ptr, unsigned int arr_size);
+unsigned char find_minimum(unsigned char * ptr, unsigned int arr_size);
+
+
 void main() {
 
   unsigned char test[SIZE] = { 34, 201, 190, 154,   8, 194,   2,   6,
@@ -36,8 +46,31 @@ void main() {
                                 7,  87, 250, 230,  99,   3, 100,  90};
 
   /* Other Variable Declarations Go Here */
+  
   /* Statistics and Printing Functions Go Here */
 
 }
 
 /* Add other Implementation File Code Here */
+
+
+void print_statistics(unsigned char * ptr, unsigned int arr_size) {
+}
+
+void print_array(unsigned char * ptr, unsigned int arr_size){
+}
+
+unsigned char find_median(unsigned char * ptr, unsigned int arr_size){
+}
+
+unsigned char find_mean(unsigned char * ptr, unsigned int arr_size){
+}
+
+unsigned char find_maximum(unsigned char * ptr, unsigned int arr_size){
+}
+
+unsigned char find_minimum(unsigned char * ptr, unsigned int arr_size){
+}
+
+void sort_array(unsigned char * ptr, unsigned int arr_size){
+}
